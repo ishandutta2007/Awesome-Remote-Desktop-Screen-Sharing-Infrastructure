@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#0b0f19; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="accent-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.25; transform: scale(1); }
+      50% { opacity: 0.55; transform: scale(1.08); }
+    }
+    @keyframes floatOrb1 {
+      0%, 100% { transform: translate(0px, 0px); }
+      50% { transform: translate(30px, -20px); }
+    }
+    @keyframes floatOrb2 {
+      0%, 100% { transform: translate(0px, 0px); }
+      50% { transform: translate(-25px, 25px); }
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .pulsing-orb {
+      animation: pulseGlow 6s ease-in-out infinite alternate;
+      transform-origin: center;
+    }
+    .floating-1 { animation: floatOrb1 8s ease-in-out infinite alternate; }
+    .floating-2 { animation: floatOrb2 10s ease-in-out infinite alternate; }
+    .stream-line {
+      stroke-dasharray: 8, 12;
+      animation: dashMove 4s linear infinite;
+    }
+  </style>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="360" fill="url(#bg-grad)" />
+
+  <!-- Animated Ambient Orbs in the background -->
+  <g class="floating-1">
+    <circle cx="200" cy="90" r="140" fill="#38bdf8" opacity="0.12" filter="blur(50px)" />
+  </g>
+  <g class="floating-2">
+    <circle cx="1020" cy="240" r="160" fill="#818cf8" opacity="0.14" filter="blur(60px)" />
+  </g>
+  <circle cx="600" cy="180" r="180" fill="#a855f7" opacity="0.08" class="pulsing-orb" filter="blur(70px)" />
+
+  <!-- Geometric Grid Pattern Overlay -->
+  <g stroke="#334155" stroke-opacity="0.25" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Dynamic Network Streaming Lines (Underneath Main Headings) -->
+  <path d="M 80,180 Q 250,90 480,180 T 880,180 T 1140,140" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.4" class="stream-line" />
+  <path d="M 60,220 Q 350,300 620,200 T 1120,220" fill="none" stroke="#818cf8" stroke-width="2" opacity="0.35" class="stream-line" style="animation-direction: reverse; animation-duration: 6s;" />
+
+  <!-- Remote Screen Illustrative Elements (Right & Left Corners) -->
+  <g transform="translate(980, 50)" opacity="0.85">
+    <rect width="160" height="105" rx="8" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1.5" />
+    <rect x="0" y="0" width="160" height="18" rx="8" fill="#1e293b" />
+    <circle cx="12" cy="9" r="3" fill="#ef4444" />
+    <circle cx="22" cy="9" r="3" fill="#eab308" />
+    <circle cx="32" cy="9" r="3" fill="#22c55e" />
+    <rect x="15" y="30" width="60" height="6" rx="3" fill="#38bdf8" opacity="0.8" />
+    <rect x="15" y="44" width="130" height="4" rx="2" fill="#64748b" opacity="0.5" />
+    <rect x="15" y="54" width="110" height="4" rx="2" fill="#64748b" opacity="0.5" />
+    <rect x="15" y="64" width="85" height="4" rx="2" fill="#64748b" opacity="0.5" />
+    <circle cx="135" cy="85" r="10" fill="#38bdf8" fill-opacity="0.15" />
+    <circle cx="135" cy="85" r="5" fill="#38bdf8" />
+  </g>
+
+  <g transform="translate(60, 200)" opacity="0.8">
+    <rect width="150" height="95" rx="8" fill="url(#card-grad)" stroke="#818cf8" stroke-width="1.5" />
+    <rect x="0" y="0" width="150" height="18" rx="8" fill="#1e293b" />
+    <circle cx="12" cy="9" r="3" fill="#ef4444" />
+    <circle cx="22" cy="9" r="3" fill="#eab308" />
+    <circle cx="32" cy="9" r="3" fill="#22c55e" />
+    <path d="M 20,60 L 50,45 L 80,65 L 130,35" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" />
+    <circle cx="130" cy="35" r="4" fill="#a855f7" />
+  </g>
+
+  <!-- Foreground Content: Header & Titles (Guaranteed high visibility and z-order) -->
+  <g text-anchor="middle" transform="translate(600, 0)">
+    <!-- Category Badge -->
+    <g transform="translate(0, 52)">
+      <rect x="-165" y="0" width="330" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6" />
+      <circle cx="-145" cy="14" r="5" fill="#38bdf8" />
+      <text x="5" y="18" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="1.5">ULTRA-LOW LATENCY &amp; REMOTE ACCESS</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="125" fill="#ffffff" font-size="35" font-weight="800" letter-spacing="-0.5">
+      Remote Desktop &amp; Screen Sharing
+    </text>
+
+    <!-- Subtitle Highlighting Infrastructure -->
+    <text x="0" y="165" fill="url(#accent-cyan)" font-size="24" font-weight="700" letter-spacing="2">
+      INFRASTRUCTURE ECOSYSTEM
+    </text>
+
+    <!-- Description Line -->
+    <text x="0" y="208" fill="#94a3b8" font-size="15" font-weight="400" letter-spacing="0.3">
+      Curated protocols, self-hosted gateways, WebRTC streams, RDP/VNC clients &amp; enterprise SaaS
+    </text>
+
+    <!-- Feature Dynamic Protocol Badges / Pills -->
+    <g transform="translate(0, 255)">
+      <g transform="translate(-360, 0)">
+        <rect x="0" y="0" width="105" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="52" y="21" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">⚡ RUSTDESK</text>
+      </g>
+      <g transform="translate(-240, 0)">
+        <rect x="0" y="0" width="105" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="52" y="21" fill="#cbd5e1" font-size="12" font-weight="600" text-anchor="middle">🖥️ RDP / xrdp</text>
+      </g>
+      <g transform="translate(-120, 0)">
+        <rect x="0" y="0" width="115" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="57" y="21" fill="#cbd5e1" font-size="12" font-weight="600" text-anchor="middle">🌐 GUACAMOLE</text>
+      </g>
+      <g transform="translate(10, 0)">
+        <rect x="0" y="0" width="110" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="55" y="21" fill="#cbd5e1" font-size="12" font-weight="600" text-anchor="middle">🎮 SUNSHINE</text>
+      </g>
+      <g transform="translate(135, 0)">
+        <rect x="0" y="0" width="110" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="55" y="21" fill="#cbd5e1" font-size="12" font-weight="600" text-anchor="middle">🛡️ MESHCENTRAL</text>
+      </g>
+      <g transform="translate(260, 0)">
+        <rect x="0" y="0" width="105" height="34" rx="17" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="52" y="21" fill="#c084fc" font-size="12" font-weight="600" text-anchor="middle">🔒 ZERO-TRUST</text>
+      </g>
+    </g>
+
+    <!-- Bottom Metric / Status line -->
+    <text x="0" y="325" fill="#64748b" font-size="12" font-weight="500">
+      ⭐ Star the repository • Contributions &amp; PRs Welcome • Real-time Monitoring &amp; Audio/Video Streaming
+    </text>
+  </g>
+</svg>
