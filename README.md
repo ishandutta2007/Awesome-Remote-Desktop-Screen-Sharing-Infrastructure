@@ -32,6 +32,7 @@ Welcome to the definitive, curated index of **Remote Desktop & Screen Sharing In
 - [Open-Source Remote Desktop & Streaming Infrastructure](#open-source-remote-desktop--streaming-infrastructure) 🔓
 - [Core Architecture Stacks & Recommendations](#core-architecture-stacks--recommendations) 🛠️
 - [How to Contribute](#how-to-contribute) 🤝
+- [Support](#support) 💖
 - [Star History](#star-history) 📈
 - [Disclaimer](#disclaimer) ⚠️
 
@@ -119,11 +120,34 @@ We welcome additions, corrections, and new infrastructure projects! 🚀
 
 ---
 
+## 💖 Support
+
+If you find this curated collection of remote desktop and screen sharing infrastructure useful, thank you for supporting the project! 🌟
+
+Here is how you can help keep it thriving:
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and contribute** new tools, benchmarks, and updates.
+- 📢 **Share with colleagues**, IT support teams, DevOps engineers, and community forums.
+- ☕ **Buy me a coffee / Sponsor**: If this index saved you research hours or infrastructure costs, consider sponsoring via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007):
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
 ##  Star History
 
 <p align="center">
-  <a href="https://star-history.com/#ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure&Date">
-    <img src="https://api.star-history.com/svg?repos=ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure&type=Date" alt="Star History Chart" width="100%" />
+  <a href="https://star-history.dera.page/#ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure&type=date&legend=top-left">
+    <img src="https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure&type=date&legend=top-left" alt="Star History Chart" width="100%" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://www.star-history.com/#ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure&type=date&legend=top-left">
+    <img src="https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure&type=date&legend=top-left" alt="Star History Chart" width="100%" />
   </a>
 </p>
 
