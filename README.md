@@ -1,6 +1,6 @@
 # Awesome-Remote-Desktop-Screen-Sharing-Infrastructure
 
-# Top Remote Desktop & Screen Sharing Infrastructure Ecosystem
+## Top Remote Desktop & Screen Sharing Infrastructure Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Remote Support, Self-Hosted RDP/VNC Gateways, Cross-Platform Screen Sharing & Secure Remote Access*  
