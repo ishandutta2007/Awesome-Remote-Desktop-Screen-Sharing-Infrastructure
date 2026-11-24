@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -72,7 +72,7 @@ Explore top open-source repositories powering self-hosted remote desktops, high-
 
 Sorted descending by GitHub stargazer count:
 
-| Repository / Project | Stars ⭐ | Primary Protocol & Role | Description & Architectural Highlights 💡 |
+| Repository / Project | GitHub_Stars ⭐ | Primary Protocol & Role | Description & Architectural Highlights 💡 |
 | :--- | :--- | :--- | :--- |
 | **[RustDesk](https://github.com/rustdesk/rustdesk)** | [![Stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=social&color=white)](https://github.com/rustdesk/rustdesk/stargazers) | P2P / WebRTC / RDP alternative | Full open-source remote desktop alternative to TeamViewer; written in Rust with cross-platform clients (Windows, Linux, macOS, Android, iOS) and self-hosted ID/relay servers. |
 | **[Sunshine](https://github.com/LizardByte/Sunshine)** | [![Stars](https://img.shields.io/github/stars/LizardByte/Sunshine?style=social&color=white)](https://github.com/LizardByte/Sunshine/stargazers) | NVHTTP / RTSP GameStream | Self-hosted, low-latency game and desktop streaming server; acts as an open-source replacement for NVIDIA GameStream with hardware-accelerated NVENC, AMD AMF, and Intel QuickSync. |
@@ -112,7 +112,7 @@ Depending on your security boundaries, network constraints, and latency targets,
 We welcome additions, corrections, and new infrastructure projects! 🚀
 
 1. Fork this repository 🍴
-2. Add your project or update existing metadata in `README.md` (keep descriptions objective and verify star counts/licensing)
+2. Add your project or update existing metadata in `README.md` (keep descriptions objective and verify Stars_Counts/licensing)
 3. Ensure the project matches the scope of remote desktop, screen sharing, or low-latency graphical streaming
 4. Submit a Pull Request with a clear description 📬
 
@@ -157,3 +157,12 @@ Here is how you can help keep it thriving:
 
 - This repository is a community-maintained curated index and does not represent an endorsement of any commercial platform or third-party open-source code.
 - Remote access utilities and screen sharing infrastructure possess privileged system capabilities. Always configure end-to-end encryption, multi-factor authentication (MFA), IP whitelisting, and strict least-privilege access rules before deploying to production networks.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Remote-Desktop-Screen-Sharing-Infrastructure&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Remote-Desktop-Screen-Sharing-Infrastructure_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Remote-Desktop-Screen-Sharing-Infrastructure_growth.svg">
+  </picture>
+</a>
